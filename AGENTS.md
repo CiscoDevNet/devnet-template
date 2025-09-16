@@ -1,6 +1,6 @@
-AGENTS.md is a simple, open format for guiding AI agents.
+**AGENTS.md is a simple, open format for guiding AI agents that works with your repository.**
 
-Edit the following template to provide users with a better experience when working with coding agents (VS Code, GitHub Copilot, Cursor, Codex, Gemini CLI, etc.).
+> Edit the following template to provide users with a better experience when working with coding agents (VS Code, GitHub Copilot, Cursor, Codex, Gemini CLI, etc.).
 
 Provide the agent with information on which documentation and/or OpenAPI spec document to use.  
 For example, you can paste a direct link to the latest OpenAPI spec. 
@@ -14,7 +14,13 @@ Choose the direct link from the list here: https://devnetsandbox.cisco.com/DevNe
 
 Additionally, you can provide information about the version and link to the SDK, Infrastructure as Code provider/module, etc., which is recommended for use by coding Agents.
 
-Example of AGENTS.md file at Cisco DevNet GitHub org: https://github.com/CiscoDevNet/python_code_samples_network/blob/master/AGENTS.md
+Example of AGENTS.md file at Cisco DevNet GitHub org: [https://github.com/CiscoDevNet/python_code_samples_network/blob/master/AGENTS.md](https://github.com/CiscoDevNet/python_code_samples_network/blob/master/AGENTS.md)
+
+Example of AGENTS.md file at The Apache Software Foundation org: [https://github.com/apache/airflow/blob/main/AGENTS.md](https://github.com/apache/airflow/blob/main/AGENTS.md)
+
+**How to test AGENTS.md?**
+* You can test it with your favorite coding agents (VS Code, GitHub Copilot, Cursor, Codex, Gemini CLI, etc.).
+* Clone the repository containing the updated AGENTS.md and request guidance, such as: `How do I run this project with the [specified parameters]?`
 
 # Template:
 
