@@ -10,3 +10,5 @@ The `CONTRIBUTING.md` file instructs new contributors on how to communicate with
 The `LICENSE` file should contain the license you intend for the source code in the repo. 
 
 The `SECURITY.md` file describes security policies and procedures including reporting a security-related bug and the policy on disclosure. 
+
+The `AGENTS.md` file contains a template for guiding AI agents that work with your repository.
