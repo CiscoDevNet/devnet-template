@@ -1,7 +1,33 @@
 # devnet-template
-This provides a template repository for creating or importing repos in the CiscoDevNet organization on GitHub.com. 
+This template repository provides a starting point for creating or importing repos in the CiscoDevNet organization on GitHub.com. 
 
-Please use this template as a guide to creating a repo that encourages contributions and shows thoughtful maintenance strategies.  
+Use this template as a guide to create a repo that encourages contributions and demonstrates thoughtful maintenance strategies.
+
+Add source code, and in template files, change `<project name>` to the repo name reference (e.g., `go-ciscosecureaccess`)
+The source files need to have copyright and license headers:
+
+For projects with Apache 2.0 license:
+
+```python
+# Copyright 2026 Cisco Systems, Inc. and its affiliates
+#
+# SPDX-License-Identifier: Apache-2.0
+```
+For projects with MIT license:
+
+```python
+# Copyright 2026 Cisco Systems, Inc. and its affiliates
+#
+# SPDX-License-Identifier: MIT
+```
+
+You can use the `reuse` tool to add copyright and license headers to all source files.
+
+Examples of adding headers to `go` files:
+```bash
+docker run --rm --volume $(pwd):/data fsfe/reuse annotate --copyright-prefix string --copyright "Cisco Systems, Inc. and its affiliates" -l "Apache-2.0" --skip-existing **/*.go 
+```
+
 
 The `CODE_OF_CONDUCT.md` reflects our standards for interaction. 
 
@@ -12,3 +38,5 @@ The `LICENSE` file should contain the license you intend for the source code in 
 The `SECURITY.md` file describes security policies and procedures including reporting a security-related bug and the policy on disclosure. 
 
 The `AGENTS.md` file contains a template for guiding AI agents that work with your repository.
+
+The `SKILLS.md` file contains a guide to adding related Agent Skills to the repository and [Cisco DevNet central skills repo](https://github.com/CiscoDevNet/skills/).
