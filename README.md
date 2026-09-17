@@ -3,7 +3,7 @@ This template repository provides a starting point for creating or importing rep
 
 Use this template as a guide to create a repo that encourages contributions and demonstrates thoughtful maintenance strategies.
 
-Add source code, and in template files, change `<project name>` to the repo name reference (e.g., `go-ciscosecureaccess`)
+Add source code, and in template files (`CODE_OF_CONDUCT.md`, `CONTRIBUTING.md`, `SECURITY.md`), change `<project name>` to the repo name reference (e.g., `go-ciscosecureaccess`)
 The source files need to have copyright and license headers:
 
 For projects with Apache 2.0 license:
@@ -39,4 +39,4 @@ The `SECURITY.md` file describes security policies and procedures including repo
 
 The `AGENTS.md` file contains a template for guiding AI agents that work with your repository.
 
-The `SKILLS.md` file contains a guide to adding related Agent Skills to the repository and [Cisco DevNet central skills repo](https://github.com/CiscoDevNet/skills/).
+The `CONTRIBUTING_SKILLS.md` file is optional and contains a guide to adding related Agent Skills to the repository and [Cisco DevNet central skills repo](https://github.com/CiscoDevNet/skills/). The `SKILLS_TEMPLATE.md` contains the Agent Skill template file.
